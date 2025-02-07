@@ -1,0 +1,69 @@
+/* Button Styles */
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button.primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .button.secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .button.danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .button.disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Card Styles */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    margin: 0 0 10px;
+    font-size: 20px;
+  }
+  
+  /* Input Styles */
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
